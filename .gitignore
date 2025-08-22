@@ -1,0 +1,21 @@
+# Rust build artifacts
+target/
+
+# Cargo.lock - for executables, optional for libraries
+# Uncomment the following line if your project is an executable and you don't
+# need reproducible builds for consumers (e.g., a CLI tool).
+Cargo.lock
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Other temporary or generated files
+*.rs.bk
+*.pdb
