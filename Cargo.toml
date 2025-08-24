@@ -12,3 +12,5 @@ aes-gcm = "0.10"             # encryption (AES-GCM)
 rand = "0.8"                 # generate nonce and salt
 secrecy = "0.8"              # store secrets safely
 base64 = "0.22"              # encode ciphertext + nonce for storage
+tokio = { version = "1.0", features = ["time", "rt", "sync", "macros"] }  # async runtime and timers
+parking_lot = "0.12"         # efficient RwLock implementation
